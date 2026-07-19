@@ -1,32 +1,33 @@
 # Hi, I'm Asad 👋
 
-Tech lead with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. Off the clock, I build developer tools and small apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
+Lead engineer with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. Off the clock, I build developer tools and small apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
 
-- 🔭 Currently: Tech Lead at CorroHealth, working on LLM-driven medical-coding accuracy and real-time anomaly detection at fleet scale (1,500+ nodes).
+- 🔭 Currently: Lead Engineer at CorroHealth, working on LLM-driven medical-coding accuracy and real-time anomaly detection at fleet scale (1,500+ nodes).
 - 🧰 For fun: MCP servers, IntelliJ plugins, and SwiftUI apps — the pinned repos below.
-- 🎓 B.S. Computer Science, University of Michigan, Ann Arbor.
+- 🎓 B.S. Computer Science, University of Michigan, Ann Arbor — Forever a Wolverine &nbsp;![Go Blue](https://img.shields.io/badge/〽️_Michigan-Go_Blue!-FFCB05?style=flat-square&labelColor=00274C)
 - 📫 Reach me: asadsq@umich.edu
 
 ### Tech I work with every day
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Rundeck](https://img.shields.io/badge/Rundeck-F73F39?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat-square&logo=pagerduty&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-`Java` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `Spring Boot` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `Dynatrace · Loggly · PagerDuty` · `Claude Code`
+`Java` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `Dynatrace · Loggly · PagerDuty` · `Claude Code`
 
-### Tech I've explored & tinkered with
+### Tech I've explored
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -35,7 +36,7 @@ Tech lead with **12+ years** building enterprise software that runs on the cloud
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-`Swift / SwiftUI` · `Kotlin` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Docker` · `Model Context Protocol` · `IntelliJ Platform SDK`
+`Swift / SwiftUI` · `Kotlin` · `Spring Boot` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Docker` · `Model Context Protocol` · `IntelliJ Platform SDK`
 
 ---
 
@@ -48,6 +49,8 @@ A Model Context Protocol server that gives AI coding agents a complete, queryabl
 
 Think of it as an `init` for your coding agent — but on steroids: rather than a one-time summary of your project, it plugs into an agent you already use as a live tool it can query on demand, so its understanding of your codebase stays exact instead of going stale.
 
+💙 **My favorite project at the moment** — and the one I'm most ambitiously building on right now.
+
 - Complete **blast-radius** analysis (full transitive closure of dependents, grouped by distance), circular-dependency detection, in-degree "hotspot" ranking, and shortest dependency path between modules.
 - Every tool explains what it did in plain English, with honest resolved-vs-unresolved coverage reporting — trust over false precision.
 - **Privacy-first, local-only** deployment: runs entirely on your machine, so proprietary source never leaves it.
@@ -58,6 +61,8 @@ Think of it as an `init` for your coding agent — but on steroids: rather than 
 
 Upgrades IntelliJ's built-in TODO handling. Scoped in plan mode as a weekly MVP, with 13 unit tests, CI, and Plugin Verifier compatibility across four IDE builds (2025.2–2026.2).
 
+🎤 *Why I built it: to have something worth presenting at a JetBrains developer conference. I've submitted a speaker proposal and am hoping to share this work with the wider plugin community — a bit of building out loud beyond the day job.*
+
 - Structured TODO syntax — `// TODO(@asad) !p1 #backend due:2026-07-10` — parsing assignee, priority, tags, and due date (plain `// TODO` still works), backed by a scan service that reuses IntelliJ's native PSI TODO index instead of re-scanning.
 - Enhanced tool window: a sortable, filterable table (type, priority, assignee, tag, free-text, "Only mine") with double-click jump-to-code and debounced auto-refresh on save.
 - Iterated the UI from a table into a modern widget — rounded card toolbar, theme-aware priority pill badges, and a cyclable "stack of cards" (prev/next via buttons, arrow keys, or mouse-wheel), with an option to float it as a sticky-note window.
@@ -67,6 +72,8 @@ Upgrades IntelliJ's built-in TODO handling. Scoped in plan mode as a weekly MVP,
 `Kotlin` · `IntelliJ Platform Gradle Plugin 2.x` · `IDEA 2025.2` · `GitHub Actions`
 
 A grab-bag of quality-of-life additions for the IDE, built on the JetBrains Platform template with CI and Plugin Verifier passing across four IDE builds.
+
+🎤 *My first attempt at building something for the JetBrains conference — a collection of ideas and experiments that eventually pointed the way to jb-todo-enhancer.*
 
 - **Folder Highlighter** — tints every file and subfolder inside the selected Project-view folder so its contents are visually unambiguous despite deep indentation (a `ProjectViewNodeDecorator` with `VfsUtilCore` ancestor checks and live re-render on tree selection).
 - **DocuSign-style "Jump to Next Diff" pill** for the diff/commit view — ▲/▼ navigation, a live change count, and first/last auto-disable, delegating to the platform's native diff navigation so it stays in sync with F7 and the gutter markers.
@@ -84,7 +91,7 @@ A SwiftUI app for toddlers that encourages reward-based parenting — collect st
 
 ## Also on my profile
 
-Beyond the projects above, my profile holds **28 repositories** in total — a trail of learning projects and experiments picked up over the years. A few worth a look, grouped by theme:
+Beyond the projects above, my profile holds **28 repositories** in total — a trail of learning projects and experiments picked up over the years. Relics from the pre-agent era. A few worth a look, grouped by theme:
 
 **iOS / Swift** — apps and Xcode experiments
 
