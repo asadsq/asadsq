@@ -89,9 +89,9 @@ A SwiftUI app for toddlers that encourages reward-based parenting — collect st
 
 ---
 
-## Also on my profile
+## Also on my profile - relics from the pre-agent era
 
-Beyond the projects above, my profile holds **28 repositories** in total — a trail of learning projects and experiments picked up over the years. Relics from the pre-agent era. A few worth a look, grouped by theme:
+Beyond the projects above, my profile holds **28 repositories** in total — a trail of learning projects and experiments picked up over the years. A few worth a look, grouped by theme:
 
 **iOS / Swift** — apps and Xcode experiments
 
