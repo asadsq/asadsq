@@ -5,7 +5,7 @@ Lead engineer with **12+ years** building enterprise software that runs on the c
 - 🔭 Currently: Lead Engineer at CorroHealth, working on LLM-driven medical-coding accuracy and real-time anomaly detection at fleet scale (1,500+ nodes).
 - 🧰 For fun: MCP servers, IntelliJ plugins, and SwiftUI apps — the pinned repos below.
 - 🎓 B.S. Computer Science, University of Michigan, Ann Arbor — Forever a Wolverine &nbsp;![Go Blue](https://img.shields.io/badge/〽️_Michigan-Go_Blue!-FFCB05?style=flat-square&labelColor=00274C)
-- 📫 Reach me: asadsq@umich.edu
+- 📫 Reach me (personal): asadsq@umich.edu - yes, I still have access to my college email for personal use.
 
 ### Tech I work with every day
 
