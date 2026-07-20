@@ -1,6 +1,8 @@
 # Hi, I'm Asad 👋
 
-Lead engineer with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. Off the clock, I build developer tools and small apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
+Lead engineer with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. However, my professional work is not documented here - this GitHub profile showcases a collection of some of my personal work.
+
+Off the clock, I build developer tools and apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
 
 - 🔭 Currently: Lead Engineer at CorroHealth, working on LLM-driven medical-coding accuracy and real-time anomaly detection at fleet scale (1,500+ nodes).
 - 🧰 For fun: MCP servers, IntelliJ plugins, and SwiftUI apps — the pinned repos below.
