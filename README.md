@@ -48,7 +48,7 @@ Lead engineer with **12+ years** building enterprise software that runs on the c
 
 A Model Context Protocol server that gives AI coding agents a complete, queryable map of a codebase's dependency and call graph — exhaustive, deterministic answers to whole-graph questions that agents can't reliably reconstruct by grep-and-read alone.
 
-Think of it as an `init` for your coding agent — but taken much further: rather than a one-time summary of your project, it plugs into an agent you already use as a live tool it can query on demand, so its understanding of your codebase stays exact instead of going stale.
+Think of it as an `init` for your coding agent — but where a typical `init` hands your agent a one-time summary, Cartograph gives it a living, queryable map: a step-change in how deeply an agent can understand a codebase. It plugs into an agent you already use as a live tool it can query on demand, so its understanding stays exact instead of going stale.
 
 💙 **My favorite project at the moment** — and the one I'm most ambitiously building on right now.
 
@@ -77,7 +77,7 @@ A grab-bag of quality-of-life additions for the IDE, built on the JetBrains Plat
 🎤 *My first attempt at building something for the JetBrains conference — a collection of ideas and experiments that eventually pointed the way to jb-todo-enhancer.*
 
 - **Folder Highlighter** — tints every file and subfolder inside the selected Project-view folder so its contents are visually unambiguous despite deep indentation (a `ProjectViewNodeDecorator` with `VfsUtilCore` ancestor checks and live re-render on tree selection).
-- **DocuSign-style "Jump to Next Diff" pill** for the diff/commit view — ▲/▼ navigation, a live change count, and first/last auto-disable, delegating to the platform's native diff navigation so it stays in sync with F7 and the gutter markers.
+- **DocuSign-style "Jump to Next Diff" pill** for the diff/commit view — ▲/▼ navigation, a live change count, and first/last auto-disable, delegating to the platform's native diff navigation.
 - Cleared the Plugin Verifier gate in part by replacing a non-public navigation call with the platform's registered `NextDiff`/`PreviousDiff` actions.
 
 ### ⭐ [reward-jar](https://github.com/asadsq/reward-jar) — SwiftUI iOS app
