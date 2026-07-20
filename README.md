@@ -17,11 +17,11 @@ Lead engineer with **12+ years** building enterprise software that runs on the c
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Rundeck](https://img.shields.io/badge/Rundeck-F73F39?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
+![IntelliJ IDEA Ultimate](https://img.shields.io/badge/IntelliJ_IDEA_Ultimate-000000?style=flat-square&logo=intellijidea&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat-square&logo=pagerduty&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-`Java` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `Dynatrace · Loggly · PagerDuty` · `Claude Code`
+`Java` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `IntelliJ IDEA Ultimate` · `Loggly · PagerDuty` · `Claude Code`
 
 ### Tech I've explored
 
@@ -35,8 +35,9 @@ Lead engineer with **12+ years** building enterprise software that runs on the c
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
 
-`Swift / SwiftUI` · `Kotlin` · `Spring Boot` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Docker` · `Model Context Protocol` · `IntelliJ Platform SDK`
+`Swift / SwiftUI` · `Kotlin` · `Spring Boot` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Docker` · `Dynatrace` · `Model Context Protocol` · `IntelliJ Platform SDK`
 
 ---
 
@@ -47,7 +48,7 @@ Lead engineer with **12+ years** building enterprise software that runs on the c
 
 A Model Context Protocol server that gives AI coding agents a complete, queryable map of a codebase's dependency and call graph — exhaustive, deterministic answers to whole-graph questions that agents can't reliably reconstruct by grep-and-read alone.
 
-Think of it as an `init` for your coding agent — but on steroids: rather than a one-time summary of your project, it plugs into an agent you already use as a live tool it can query on demand, so its understanding of your codebase stays exact instead of going stale.
+Think of it as an `init` for your coding agent — but taken much further: rather than a one-time summary of your project, it plugs into an agent you already use as a live tool it can query on demand, so its understanding of your codebase stays exact instead of going stale.
 
 💙 **My favorite project at the moment** — and the one I'm most ambitiously building on right now.
 
@@ -84,8 +85,8 @@ A grab-bag of quality-of-life additions for the IDE, built on the JetBrains Plat
 
 A SwiftUI app for toddlers that encourages reward-based parenting — collect stars and gems, fill the jar, earn a reward.
 
-- Animated "reward jar" with live counters and celebration animations, built entirely from custom cartoon shapes, a central color palette, code-drawn backgrounds, and in-code synthesized sound (no audio assets).
-- Structured into focused SwiftUI components (Jar, JarItem, Counters, Celebration, CartoonShapes, SoundManager, …), developed with a disciplined Git workflow: develop-based feature branches in isolated worktrees, pull requests, and post-merge branch cleanup.
+- Animated "reward jar" with live counters and celebration animations, built entirely from custom cartoon shapes, a central color palette, and code-drawn backgrounds.
+- Architected as a composable hierarchy of focused SwiftUI components with clear separation of concerns, developed under a disciplined branch-based Git workflow with isolated worktrees for parallel feature development.
 
 ---
 
@@ -105,6 +106,7 @@ Beyond the projects above, my profile holds **28 repositories** in total — a t
 
 **Front-end web** — HTML/CSS/JS and Node mini-projects
 
+- **[web-TinDog](https://github.com/asadsq/web-TinDog-Udemy)** — a responsive Bootstrap landing page for a fictional "Tinder for dogs" startup.
 - **[web-drumkit](https://github.com/asadsq/web-drumkit)** — a browser drum kit that triggers sounds on key press and click.
 - **[web-Dicee](https://github.com/asadsq/web-Dicee)** — a two-player dice-roll game in vanilla JavaScript.
 - **[web-calculator](https://github.com/asadsq/web-calculator)** — a small HTML/CSS/JS calculator.
