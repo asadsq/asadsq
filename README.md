@@ -1,8 +1,6 @@
 # Hi, I'm Asad 👋
 
-Lead engineer with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. However, my professional work is not documented here - this GitHub profile showcases a collection of some of my personal work.
-
-Off the clock, I build developer tools and apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
+Lead engineer with **12+ years** building enterprise software that runs on the cloud. Most of my day job is deep in Java, AWS, and distributed systems — lately with a focus on **LLM integration** into production pipelines. Off the clock, I build developer tools and small apps, usually pairing spec-driven, agent-augmented workflows with real engineering rigor: tests, code review, CI, and verification gates.
 
 - 🔭 Currently: Lead Engineer at CorroHealth, working on LLM-driven medical-coding accuracy and real-time anomaly detection at fleet scale (1,500+ nodes).
 - 🧰 For fun: MCP servers, IntelliJ plugins, and SwiftUI apps — the pinned repos below.
@@ -12,6 +10,7 @@ Off the clock, I build developer tools and apps, usually pairing spec-driven, ag
 ### Tech I work with every day
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
@@ -19,11 +18,12 @@ Off the clock, I build developer tools and apps, usually pairing spec-driven, ag
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Rundeck](https://img.shields.io/badge/Rundeck-F73F39?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![IntelliJ IDEA Ultimate](https://img.shields.io/badge/IntelliJ_IDEA_Ultimate-000000?style=flat-square&logo=intellijidea&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat-square&logo=pagerduty&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
-`Java` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `IntelliJ IDEA Ultimate` · `Loggly · PagerDuty` · `Claude Code`
+`Java` · `Python` · `AWS (SDK, EC2, S3, SQS, Lambda)` · `REST APIs` · `LLM integration` · `Gradle / Maven` · `GitHub` · `Rundeck · Jenkins` · `Linux` · `Docker` · `IntelliJ IDEA Ultimate` · `Loggly · PagerDuty` · `Claude Code`
 
 ### Tech I've explored
 
@@ -36,14 +36,24 @@ Off the clock, I build developer tools and apps, usually pairing spec-driven, ag
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Dynatrace](https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white)
 
-`Swift / SwiftUI` · `Kotlin` · `Spring Boot` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Docker` · `Dynatrace` · `Model Context Protocol` · `IntelliJ Platform SDK`
+`Swift / SwiftUI` · `Kotlin` · `Spring Boot` · `JavaScript / TypeScript` · `HTML / CSS` · `React · Node.js · Express · Angular` · `MongoDB` · `Dynatrace` · `Model Context Protocol` · `IntelliJ Platform SDK`
 
 ---
 
 ## Featured projects
+
+### 🛩️ Agent Cockpit — AI-native development with descending-altitude readouts
+`Claude Code plugin` · `Jira · GitHub · Slack`
+
+*Repository coming soon — I'll link it here once it's pushed.*
+
+AI-native development scatters your attention across agents, sub-agents, Jira, and GitHub — and only the agent conversation knows what was actually built, which nothing could query. Rebuilding that picture by hand each morning is the tax on working this way.
+
+- A Claude Code plugin that lives in the editor's right-hand pane and reports at four levels of zoom — the whole plate, a ticket's six facets, the full ticket, and the last turn of a conversation.
+- Rather than infer status, it **interviews the agents** — dispatching a request into each ticket's own conversation and building every card from what returns; the spine feeds a shipped-items board, a daily standup, and a Slack check-in.
+- Collapses the context-switching that AI-native work multiplies into one command and one pane: pick up a ticket cold with `/whats-the-411`, see what the last session built and what it still owes, and keep moving.
 
 ### 🗺️ [Cartograph](https://github.com/asadsq/cartograph-mcp-server) — MCP server for AI-agent codebase review
 `Java 21` · `Maven` · `Model Context Protocol SDK 2.0` · `JUnit 5` · `GitHub Actions`
@@ -59,14 +69,14 @@ Think of it as an `init` for your coding agent — but where a typical `init` ha
 - **Privacy-first, local-only** deployment: runs entirely on your machine, so proprietary source never leaves it.
 - Ships as a shaded, runnable JAR with JUnit 5 tests, MCP Inspector verification, and GitHub Actions CI.
 
-### ✅ [jb-todo-enhancer](https://github.com/asadsq/jb-todo-enhancer) — IntelliJ IDEA plugin
+### 📋 [jb-todo-enhancer](https://github.com/asadsq/jb-todo-enhancer) — in-editor backlog intelligence for IntelliJ IDEA
 `Kotlin` · `IntelliJ Platform Gradle Plugin 2.x` · `IDEA 2025.2` · `JUnit 5` · `GitHub Actions`
 
-Upgrades IntelliJ's built-in TODO handling. Scoped in plan mode as a weekly MVP, with 13 unit tests, CI, and Plugin Verifier compatibility across four IDE builds (2025.2–2026.2).
+Every codebase carries a hidden backlog — the `TODO` and `FIXME` markers engineers scatter through the source and then lose track of. This plugin promotes those markers into a first-class, managed backlog inside IntelliJ: structured, filterable, and assignable, so the work buried in your code becomes visible and actionable instead of forgotten. Scoped in plan mode as a weekly MVP, with 13 unit tests, CI, and Plugin Verifier compatibility across four IDE builds (2025.2–2026.2).
 
 🎤 *Why I built it: to have something worth presenting at a JetBrains developer conference. I've submitted a speaker proposal and am hoping to share this work with the wider plugin community — a bit of building out loud beyond the day job.*
 
-- Structured TODO syntax — `// TODO(@asad) !p1 #backend due:2026-07-10` — parsing assignee, priority, tags, and due date (plain `// TODO` still works), backed by a scan service that reuses IntelliJ's native PSI TODO index instead of re-scanning.
+- Structured backlog syntax — `// TODO(@asad) !p1 #backend due:2026-07-10` — parsing assignee, priority, tags, and due date (plain markers still work), backed by a scan service that reuses IntelliJ's native PSI index instead of re-scanning.
 - Enhanced tool window: a sortable, filterable table (type, priority, assignee, tag, free-text, "Only mine") with double-click jump-to-code and debounced auto-refresh on save.
 - Iterated the UI from a table into a modern widget — rounded card toolbar, theme-aware priority pill badges, and a cyclable "stack of cards" (prev/next via buttons, arrow keys, or mouse-wheel), with an option to float it as a sticky-note window.
 - Automated release pipeline: Gradle plugin signing plus a GitHub Actions workflow that builds and packages a signed artifact on each release.
