@@ -69,14 +69,14 @@ Think of it as an `init` for your coding agent — but where a typical `init` ha
 - **Privacy-first, local-only** deployment: runs entirely on your machine, so proprietary source never leaves it.
 - Ships as a shaded, runnable JAR with JUnit 5 tests, MCP Inspector verification, and GitHub Actions CI.
 
-### 📋 [jb-todo-enhancer](https://github.com/asadsq/jb-todo-enhancer) — in-editor backlog intelligence for IntelliJ IDEA
+### 📋 [Hidden Backlog Tracker](https://github.com/asadsq/jb-todo-enhancer) — in-editor backlog intelligence for IntelliJ IDEA
 `Kotlin` · `IntelliJ Platform Gradle Plugin 2.x` · `IDEA 2025.2` · `JUnit 5` · `GitHub Actions`
 
-Every codebase carries a hidden backlog — the `TODO` and `FIXME` markers engineers scatter through the source and then lose track of. This plugin promotes those markers into a first-class, managed backlog inside IntelliJ: structured, filterable, and assignable, so the work buried in your code becomes visible and actionable instead of forgotten. Scoped in plan mode as a weekly MVP, with 13 unit tests, CI, and Plugin Verifier compatibility across four IDE builds (2025.2–2026.2).
+Every codebase carries a hidden backlog — the comment markers engineers scatter through the source and then lose track of. This plugin promotes those markers into a first-class, managed backlog inside IntelliJ: structured, filterable, and assignable, so the work buried in your code becomes visible and actionable instead of forgotten. Scoped in plan mode as a weekly MVP, with 13 unit tests, CI, and Plugin Verifier compatibility across four IDE builds (2025.2–2026.2).
 
 🎤 *Why I built it: to have something worth presenting at a JetBrains developer conference. I've submitted a speaker proposal and am hoping to share this work with the wider plugin community — a bit of building out loud beyond the day job.*
 
-- Structured backlog syntax — `// TODO(@asad) !p1 #backend due:2026-07-10` — parsing assignee, priority, tags, and due date (plain markers still work), backed by a scan service that reuses IntelliJ's native PSI index instead of re-scanning.
+- Structured backlog syntax — markers annotated like `(@asad) !p1 #backend due:2026-07-10` — parsing assignee, priority, tags, and due date (plain markers still work), backed by a scan service that reuses IntelliJ's native PSI index instead of re-scanning.
 - Enhanced tool window: a sortable, filterable table (type, priority, assignee, tag, free-text, "Only mine") with double-click jump-to-code and debounced auto-refresh on save.
 - Iterated the UI from a table into a modern widget — rounded card toolbar, theme-aware priority pill badges, and a cyclable "stack of cards" (prev/next via buttons, arrow keys, or mouse-wheel), with an option to float it as a sticky-note window.
 - Automated release pipeline: Gradle plugin signing plus a GitHub Actions workflow that builds and packages a signed artifact on each release.
@@ -86,7 +86,7 @@ Every codebase carries a hidden backlog — the `TODO` and `FIXME` markers engin
 
 A grab-bag of quality-of-life additions for the IDE, built on the JetBrains Platform template with CI and Plugin Verifier passing across four IDE builds.
 
-🎤 *My first attempt at building something for the JetBrains conference — a collection of ideas and experiments that eventually pointed the way to jb-todo-enhancer.*
+🎤 *My first attempt at building something for the JetBrains conference — a collection of ideas and experiments that eventually pointed the way to the Hidden Backlog Tracker.*
 
 - **Folder Highlighter** — tints every file and subfolder inside the selected Project-view folder so its contents are visually unambiguous despite deep indentation (a `ProjectViewNodeDecorator` with `VfsUtilCore` ancestor checks and live re-render on tree selection).
 - **DocuSign-style "Jump to Next Diff" pill** for the diff/commit view — ▲/▼ navigation, a live change count, and first/last auto-disable, delegating to the platform's native diff navigation.
